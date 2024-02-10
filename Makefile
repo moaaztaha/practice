@@ -8,5 +8,8 @@ lint:
 test:
 	python -m pytest -vv --cov=hello test_hello.py
 
+test-aws:
+	python3 -m pytest -vv --cov=hello test_hello.py
+
 format:
 	black *.py
